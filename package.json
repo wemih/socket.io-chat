@@ -1,0 +1,25 @@
+{
+  "name": "current-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@withvoid/make-validation": "^1.0.5",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7",
+    "morgan": "^1.10.0",
+    "socket.io": "^2.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

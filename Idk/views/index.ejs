@@ -1,0 +1,16 @@
+<%- include('header') %>
+
+            <form action="/chat" method="POST">
+                    <label for="nickname">Nickname</label>
+                    <input type="text" name="nickname" class="form-control mb-2" placeholder="Your nickname...">
+                    <label for="roomname">Roomname</label>
+                    <select name="" class="form-control mb-2">
+                        <option value="Main room">Main room</option>
+                        <option value="Secondary room">Secondary room</option>
+                        <option value="Third room">Third room</option>
+                    </select>
+                    <button class="btn btn-outline-dark">Join</button>
+            </form>
+
+<%- include('footer') %>
+        
